@@ -28,13 +28,13 @@
 </head>
 <body>
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top ">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbar-toggler">
-            <a class="navbar-brand" href="#navbar-toggler">
+            <a class="navbar-brand" href="#hero">
                 <img src="imagenes/icono.png" width="50" alt="logo de la pagina web">
             </a>
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
@@ -56,7 +56,7 @@
     </nav>
 
     <!-- Seccion Hero -->
-    <section class="hero align-items-stretch">
+    <section id="hero" class="hero align-items-stretch">
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
             <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/desarrollador-ejemplo.svg" alt="Foto de Franco DQ">
             <h1>Hola, soy Franco Díaz Quilis</h1>
@@ -361,7 +361,7 @@
 
     <!-- Pie de pagina (footer) -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-      <a href="#navbar-toggler">
+      <a href="#hero">
         <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
       </a>
       <p class="footer-text text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos!</p>
